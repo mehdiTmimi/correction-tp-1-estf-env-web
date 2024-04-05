@@ -1,0 +1,23 @@
+:root{
+    --distance: 200px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body>header{
+    position: fixed;
+    width: var(--distance);
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+body>header li{
+    display: block;
+}
+body>main{
+    margin-left: var(--distance);
+}
