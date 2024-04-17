@@ -60,3 +60,40 @@ main .section1 .popular li{
     bottom: 20px;
     right: 20px;
 }
+
+main .section2{
+    display: flex;
+}
+main .section2>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main .section2>div>*{
+    /*
+        on cible toutes les balises qui ont un parent
+        directe 'div' qui a un parent direct ayant la 
+        classe section2 affectee et qui a un antecedent main
+    */
+    text-align: center;
+}
+main .section2 img{
+    width: 100px;
+}
+
+main .section3 ul{
+   display: flex;
+   gap: 10px;
+   list-style: none;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+footer>div{
+    display: flex;
+    gap: 200px;
+}
+footer li{
+    display: inline-block;
+}
