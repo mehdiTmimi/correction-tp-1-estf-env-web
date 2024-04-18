@@ -51,10 +51,31 @@
     font: normal normal normal 14px / 1 FontAwesome;
     margin-right: 5px;
 }
+.header button{
+    padding: 0px 15px;
+    font-weight: bold;
+    border: 0px;
+    border: 1px solid #d6d4d4;
+    background: white;
+    border-radius: 3px;
+    text-transform: capitalize;
+}
 main .section1{
     display: flex;
     gap: 100px;
     padding: 0px 100px;
+    margin-top: 100px;
+}
+main .section1 h2{
+    font-size: 3.5em;
+    margin-bottom: 40px;
+}
+main .section1 h2{
+    font-size: 3.5em;
+}
+main .section1 .paragLarge{
+    font-size: 1.5em;
+    margin-bottom: 30px;
 }
 main .section1 div{
     flex: 3;
@@ -70,6 +91,15 @@ main .section1 .searchIconsDiv{
 }
 main .section1 .inputDiv{
     display: flex;
+}
+main .section1 .searchBtn{
+    background: black;
+    color: white;
+    border: 0px;
+    padding: 10px 20px;
+    display: flex;
+    gap: 5px;
+    border-radius: 3px;
 }
 main .section1 .popular{
     display: flex;
