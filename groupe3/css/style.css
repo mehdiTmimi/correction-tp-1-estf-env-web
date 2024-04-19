@@ -5,18 +5,98 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
+   
 }
-
 body>header{
+    background-color: rgb(49, 48, 48);
+    color: white;
     position: fixed;
     width: var(--distance);
     height: 100vh;
     flex-direction: column;
     display: flex;
     justify-content: space-between;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 40px;
 }
 body>header li{
     display: block;
+    margin-top: 15px;
+}
+body>header h1{
+    font-weight: unset;
+    font-size: 0.8em;
+    position: relative;
+}
+body>header a{
+    color:inherit;
+}
+.iconHeader{
+    color: #779556;
+    position: absolute;
+    font-size: 1.5em!important;
+    z-index: -1;
+}
+body>header h1 span{
+    margin-left: 13px;
+    font-size: 1.5em;
+    background: rgb(49, 48, 48);
+    border-radius: 50%;
+    padding: 2px;
+    font-weight: bold;
+    padding-right: 0px;
+}
+body>header nav li a{
+    text-transform: capitalize;
+    display: flex;
+    gap: 5px;
+    align-items: flex-end;
+}
+body>header nav{
+    color:#dfdede;
+}
+body>header nav li i{
+    width: 18px;
+}
+body>header input{
+    margin-top: 15px;
+    background: #3c3b39;
+    /* border: 0; */
+    border: 1px solid #4c4b49;
+    padding: 10px;
+    border-radius: 3px;
+    text-transform: capitalize;
+}
+.authentification-div{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.authentification-div button{
+    padding: 12px 0px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    border: 0;
+    font-weight: bold;
+}
+.authentification-div button:nth-child(1){
+    color:#c6c6c6;
+    background: #3c3b39;
+}
+.authentification-div button:nth-child(2){
+    color:white;
+    background: #81b64c;
+}
+.bottom-header{
+    color:#939291;
+}
+.bottom-header li a{
+    display: flex;
+    gap: 10px;
 }
 body>main{
     margin-left: var(--distance);
