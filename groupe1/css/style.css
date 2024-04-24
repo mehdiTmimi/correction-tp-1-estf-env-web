@@ -124,10 +124,24 @@ main .section1 .searchBtn{
     border-radius: 3px;
 }
 main .section1 .popular{
+    margin-top:15px;
     display: flex;
 }
 main .section1 .popular li{
     display: inline-block;
+    color:black;
+    padding-left:3px
+}
+main .section1 .popular li::after{
+    content:',';
+}
+main .section1 .popular li:last-child::after{
+    content:'';
+}
+main .section1 .popular li a{
+    color:inherit;
+
+    border-bottom:1px solid #8080807a
 }
 .floatingBtn{
     position: fixed;
@@ -136,6 +150,7 @@ main .section1 .popular li{
 }
 
 main .section2{
+    margin-top:20px;
     display: flex;
 }
 main .section2>div{
