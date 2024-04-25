@@ -3,6 +3,10 @@
     margin: 0;
     text-decoration: none;
 }
+
+body{
+    background-color: #f8f7f4;
+}
 header{
     display: flex;
     justify-content: space-between;
@@ -10,15 +14,51 @@ header{
     padding: 0px 20px;
     color: black;
 }
-
+header ul{
+    display: flex;
+    gap: 30px;
+}
 header ul li{
     display: inline-block;
+    font-weight: bold;
 }
 header ul a{
     color:inherit;
 }
 header img{
     width: 140px;
+}
+header .left-header{
+    display: flex;
+    gap: 30px;
+    font-weight: bold;
+    align-items: center;
+}
+header .left-header a:nth-child(2){
+  color:inherit;
+}
+header .left-header a:nth-child(3){
+    background-color: black;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 20px;
+}
+header .left-header input{
+    padding: 12px 35px;
+    border-radius: 20px;
+    border: 0;
+}
+header .left-header .divSearch{
+    position: relative;
+}
+header .left-header .divSearch::before{
+    content: '\f002';
+    font: normal normal normal 14px / 1 FontAwesome;
+    position: absolute;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    left: 10px;
 }
 
 
