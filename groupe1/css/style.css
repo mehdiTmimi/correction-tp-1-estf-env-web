@@ -150,7 +150,7 @@ main .section1 .popular li a{
 }
 
 main .section2{
-    margin-top:20px;
+    margin-top:100px;
     display: flex;
 }
 main .section2>div{
@@ -175,9 +175,61 @@ main .section3 ul{
    gap: 10px;
    list-style: none;
 }
+main .section3{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    color: black;
+}
+main .section3 h2{
+    font-size: 2em;
+}
+main .section3 h2::first-letter{
+    text-transform: uppercase;
+}
+main .section3 a{
+    color: inherit;
+   
+    text-transform: capitalize;
+}
+main .section3 a span{
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-color: #a7a6a6;
+}
+main .section3 ul{
+    display: flex;
+    gap: 20px;
+}
+main .section3 ul li i{
+    margin-right: 7px;
+}
 footer{
+    position: relative;
     display: flex;
     justify-content: space-between;
+    background-color: #e4e3e3;
+    padding: 50px 100px;
+    color: black;
+}
+footer a{
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-color: #a7a6a6;
+}
+footer::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 10px;
+    height: 2px;
+    background: #c5c3c3;
+    width: calc(100% - 200px);
+    left: 0px;
+    margin-left: 100px;
+    /* margin: 0px 100px; */
 }
 footer>div{
     display: flex;
@@ -185,4 +237,8 @@ footer>div{
 }
 footer li{
     display: inline-block;
+}
+footer ul{
+    display: flex;
+    gap: 10px;
 }

@@ -160,3 +160,7 @@ main{
     background: #403e3c;
     box-shadow:0px 5px #333230;
 }
+.btn{
+    border: 0;
+    color: white;
+}
