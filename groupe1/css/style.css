@@ -1,244 +1,255 @@
-*{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
+* {
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
 }
-.header{
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 20px;
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
 }
-.header img{
-    width: 30px;
+.header img {
+  width: 30px;
 }
-.header>div{
-    display: flex;
-    gap: 40px;
+.header > div {
+  display: flex;
+  gap: 40px;
 }
-
-.header>div>div{
-    gap: 10px;
-    display: flex;
-    align-items: center;
+.header > div > div {
+  gap: 10px;
+  display: flex;
+  align-items: center;
 }
-.header>div>div>i{
-    color:#1fb141;
+.header > div > div > i {
+  color: rgb(31, 177, 65);
 }
-.header h1{
-    text-transform: uppercase;
-    font-size: 0.8em;
+.header h1 {
+  text-transform: uppercase;
+  font-size: 0.8em;
 }
-.header nav{
-    display: flex;
-    align-items: center;
+.header nav {
+  display: flex;
+  align-items: center;
 }
-.header nav ul{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    color: black;
+.header nav ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: black;
+  flex-wrap: wrap;
 }
-.header nav li{
+.header nav li {
   display: block;
 }
-.header nav a{
-    color: inherit;
-    font-weight: bold;
-    text-transform: capitalize;
+.header nav a {
+  color: inherit;
+  font-weight: bold;
+  text-transform: capitalize;
 }
-.header nav .figmaLink::before{
-    content: '\f00b';
-    font: normal normal normal 14px / 1 FontAwesome;
-    margin-right: 5px;
+.header nav .figmaLink::before {
+  content: "";
+  font: 14px / 1 FontAwesome;
+  margin-right: 5px;
 }
-.header button{
-    padding: 0px 15px;
-    font-weight: bold;
-    border: 0px;
-    border: 1px solid #d6d4d4;
-    background: white;
-    border-radius: 3px;
-    text-transform: capitalize;
+.header button {
+  padding: 0px 15px;
+  font-weight: bold;
+  border: 1px solid rgb(214, 212, 212);
+  background: white;
+  border-radius: 3px;
+  text-transform: capitalize;
 }
-main .section1{
-    display: flex;
-    gap: 100px;
-    padding: 0px 100px;
-    margin-top: 100px;
+main .section1 {
+  display: flex;
+  gap: 100px;
+  padding: 0px 100px;
+  margin-top: 100px;
 }
-main .section1 h2{
-    font-size: 3.5em;
-    margin-bottom: 40px;
+main .section1 h2 {
+  font-size: 3.5em;
+  margin-bottom: 40px;
 }
-main .section1 h2{
-    font-size: 3.5em;
+main .section1 h2 {
+  font-size: 3.5em;
 }
-main .section1 .paragLarge{
-    font-size: 1.5em;
-    margin-bottom: 30px;
+main .section1 .paragLarge {
+  font-size: 1.5em;
+  margin-bottom: 30px;
 }
-main .section1>div{
-    flex: 3;
+main .section1 > div {
+  flex: 3 1 0%;
 }
-main .section1 .videoContainer{
-    flex: 2;
+main .section1 .videoContainer {
+  flex: 2 1 0%;
 }
-main .section1 .videoContainer video{
-    width: 100%;
+main .section1 .videoContainer video {
+  width: 100%;
 }
-main .section1 .searchIconsDiv{
-    display: flex;
+main .section1 .searchIconsDiv {
+  display: flex;
 }
-main .section1 .searchIconsDiv .iconsBtn{border: 0;padding: 15px 20px;border-radius: 3px;text-transform: capitalize;font-weight: bold;}
-main .section1 .inputDiv{
-    display: flex;
-    flex: 1;
-    position: relative;
-    left: -5px;
-    margin-right: 10px;
+main .section1 .searchIconsDiv .iconsBtn {
+  border: 0px;
+  padding: 15px 20px;
+  border-radius: 3px;
+  text-transform: capitalize;
+  font-weight: bold;
 }
-main .section1 .inputDiv input{flex: 1;padding: 15px;}
-main .section1 .iconSearch{
-    position: absolute;
-    right: 0px;
-    /* right: 10px; */
-    margin: 0px 10px;
-    height: 100%;
-    display: flex;
-    align-items: center;
+main .section1 .inputDiv {
+  display: flex;
+  flex: 1 1 0%;
+  position: relative;
+  left: -5px;
+  margin-right: 10px;
 }
-main .section1 .iconSearch i{
-    border-radius: 3px;
-    padding: 5px;
-    background: #f4f1f1;
+main .section1 .inputDiv input {
+  flex: 1 1 0%;
+  padding: 15px;
 }
-main .section1 .iconSearch span{width: 5px;height: 5px;border-radius: 50%;background: #03A9F4;position: relative;bottom: 12px;right: 3PX;}
-main .section1 .searchBtn{
-    background: black;
-    color: white;
-    border: 0px;
-    padding: 10px 20px;
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    border-radius: 3px;
+main .section1 .iconSearch {
+  position: absolute;
+  right: 0px;
+  margin: 0px 10px;
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
-main .section1 .popular{
-    margin-top:15px;
-    display: flex;
+main .section1 .iconSearch i {
+  border-radius: 3px;
+  padding: 5px;
+  background: rgb(244, 241, 241);
 }
-main .section1 .popular li{
-    display: inline-block;
-    color:black;
-    padding-left:3px
+main .section1 .iconSearch span {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: rgb(3, 169, 244);
+  position: relative;
+  bottom: 12px;
+  right: 3px;
 }
-main .section1 .popular li::after{
-    content:',';
+main .section1 .searchBtn {
+  background: black;
+  color: white;
+  border: 0px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border-radius: 3px;
 }
-main .section1 .popular li:last-child::after{
-    content:'';
+main .section1 .popular {
+  margin-top: 15px;
+  display: flex;
 }
-main .section1 .popular li a{
-    color:inherit;
+main .section1 .popular li {
+  display: inline-block;
+  color: black;
+  padding-left: 3px;
+}
+main .section1 .popular li::after {
+  content: ",";
+}
+main .section1 .popular li:last-child::after {
+  content: "";
+}
+main .section1 .popular li a {
+  color: inherit;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.48);
+}
+.floatingBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+main .section2 {
+  margin-top: 100px;
+  display: flex;
+}
+main .section2 > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .section2 > div > * {
+  text-align: center;
+}
+main .section2 img {
+  width: 100px;
+}
+main .section3 ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+main .section3 {
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: black;
+}
+main .section3 h2 {
+  font-size: 2em;
+}
+main .section3 h2::first-letter {
+  text-transform: uppercase;
+}
+main .section3 a {
+  color: inherit;
+  text-transform: capitalize;
+}
+main .section3 a span {
+  text-decoration: underline rgb(167, 166, 166);
+  text-underline-offset: 4px;
+}
+main .section3 ul {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+main .section3 ul li i {
+  margin-right: 7px;
+}
+footer {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(228, 227, 227);
+  padding: 50px 100px;
+  color: black;
+}
+footer a {
+  color: inherit;
+  text-decoration: underline rgb(167, 166, 166);
+  text-underline-offset: 4px;
+}
+footer::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  height: 2px;
+  background: rgb(197, 195, 195);
+  width: calc(100% - 200px);
+  left: 0px;
+  margin-left: 100px;
+}
+footer > div {
+  display: flex;
+  gap: 200px;
+}
+footer li {
+  display: inline-block;
+}
+footer ul {
+  display: flex;
+  gap: 10px;
+}
 
-    border-bottom:1px solid #8080807a
-}
-.floatingBtn{
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-}
 
-main .section2{
-    margin-top:100px;
-    display: flex;
-}
-main .section2>div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-main .section2>div>*{
-    /*
-        on cible toutes les balises qui ont un parent
-        directe 'div' qui a un parent direct ayant la 
-        classe section2 affectee et qui a un antecedent main
-    */
-    text-align: center;
-}
-main .section2 img{
-    width: 100px;
-}
-
-main .section3 ul{
-   display: flex;
-   gap: 10px;
-   list-style: none;
-}
-main .section3{
-    padding: 100px;
-    display: flex;
-    flex-direction: column;
-    gap:20px;
-    color: black;
-}
-main .section3 h2{
-    font-size: 2em;
-}
-main .section3 h2::first-letter{
-    text-transform: uppercase;
-}
-main .section3 a{
-    color: inherit;
-   
-    text-transform: capitalize;
-}
-main .section3 a span{
-    text-decoration: underline;
-    text-underline-offset: 4px;
-    text-decoration-color: #a7a6a6;
-}
-main .section3 ul{
-    display: flex;
-    gap: 20px;
-}
-main .section3 ul li i{
-    margin-right: 7px;
-}
-footer{
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    background-color: #e4e3e3;
-    padding: 50px 100px;
-    color: black;
-}
-footer a{
-    color: inherit;
-    text-decoration: underline;
-    text-underline-offset: 4px;
-    text-decoration-color: #a7a6a6;
-}
-footer::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    width: 10px;
-    height: 2px;
-    background: #c5c3c3;
-    width: calc(100% - 200px);
-    left: 0px;
-    margin-left: 100px;
-    /* margin: 0px 100px; */
-}
-footer>div{
-    display: flex;
-    gap: 200px;
-}
-footer li{
-    display: inline-block;
-}
-footer ul{
-    display: flex;
-    gap: 10px;
+@media screen  and (max-width:1000px){
+    main .section1 {
+        padding: 0 20px;
+    }
+    
 }

@@ -1,64 +1,93 @@
-*{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
 }
 
-body{
-    background-color: #f8f7f4;
+body {
+  background-color: #f8f7f4;
 }
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 20px;
-    color: black;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  color: black;
 }
-header ul{
-    display: flex;
-    gap: 30px;
+header ul {
+  display: flex;
+  gap: 30px;
 }
-header ul li{
-    display: inline-block;
-    font-weight: bold;
+header ul li {
+  display: inline-block;
+  font-weight: bold;
 }
-header ul a{
-    color:inherit;
+header ul a {
+  color: inherit;
 }
-header img{
-    width: 140px;
+header img {
+  width: 140px;
 }
-header .left-header{
-    display: flex;
-    gap: 30px;
-    font-weight: bold;
-    align-items: center;
+header .left-header {
+  display: flex;
+  gap: 30px;
+  font-weight: bold;
+  align-items: center;
 }
-header .left-header a:nth-child(2){
-  color:inherit;
+header .left-header a:nth-child(2) {
+  color: inherit;
 }
-header .left-header a:nth-child(3){
-    background-color: black;
-    color: white;
-    padding: 12px 18px;
-    border-radius: 20px;
+header .left-header a:nth-child(3) {
+  background-color: black;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 20px;
 }
-header .left-header input{
-    padding: 12px 35px;
-    border-radius: 20px;
-    border: 0;
+header .left-header input {
+  padding: 12px 35px;
+  border-radius: 20px;
+  border: 0;
 }
-header .left-header .divSearch{
-    position: relative;
+header .left-header .divSearch {
+  position: relative;
 }
-header .left-header .divSearch::before{
-    content: '\f002';
-    font: normal normal normal 14px / 1 FontAwesome;
-    position: absolute;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    left: 10px;
+header .left-header .divSearch::before {
+  content: "\f002";
+  font: normal normal normal 14px / 1 FontAwesome;
+  position: absolute;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  left: 10px;
 }
 
-
+.section1 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  padding: 0px 250px;
+  margin-top: 100px;
+}
+.section1 button:first-child {
+  background-color: #e1b6f0;
+  border: 0;
+  padding: 10px;
+  font-size: 0.8em;
+  border-radius: 20px;
+}
+.section1 h1 {
+  font-size: 5em;
+  text-align: center;
+}
+.section1 p {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.section1 button:last-child {
+  color: white;
+  background: black;
+  border: 0;
+  padding: 10px 15px;
+  border-radius: 20px;
+}
