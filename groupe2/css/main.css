@@ -92,50 +92,109 @@ header .left-header .divSearch::before {
   padding: 10px 15px;
   border-radius: 20px;
 }
-.section2{
-    margin-bottom: 100px;
+.section2 {
+  margin-bottom: 100px;
+  overflow: hidden;
 }
-.section2>ul{
-    display: flex;
-    align-items: flex-start;
-    color: white;
-    gap: 50px;
-   position: relative;
-   animation:slider 8s infinite linear alternate;
+.section2 > ul {
+  display: flex;
+  align-items: flex-start;
+  color: white;
+  gap: 50px;
+  position: relative;
+  animation: slider 8s infinite linear alternate;
 }
 @keyframes slider {
-    from {left: 0px;}
-    to{left:-400px}
+  from {
+    left: 0px;
+  }
+  to {
+    left: -400px;
+  }
 }
-.section2>ul li{
-    display: block;
-    position: relative;
-  
+.section2 > ul li {
+  display: block;
+  position: relative;
 }
-.section2 img,.section2 video{
-    border-radius: 20px;
+.section2 img,
+.section2 video {
+  border-radius: 20px;
 }
-.section2 ul li div{
-    position: absolute;
-    bottom: 0;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.section2 ul li div {
+  position: absolute;
+  bottom: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
-.section2>ul ul{
-    display: flex;
-    gap: 10px;
+.section2 > ul ul {
+  display: flex;
+  gap: 10px;
 }
-.section2>ul ul li{
-    display: block;
-    border: 1px solid gray;
-    padding: 5px 10px;
-    border-radius: 20px;
-    font-weight: bold;
+.section2 > ul ul li {
+  display: block;
+  border: 1px solid gray;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-weight: bold;
 }
-.section2 img, .section2 video{
-    width: 320px;
-    height: 399px;
+.section2 img,
+.section2 video {
+  width: 320px;
+  height: 399px;
 }
 
+.section3 {
+  padding: 0px 80px;
+}
+
+.section3>ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+.section3 li {
+  display: block;
+}
+.section3 li > div:first-child img {
+  border-radius: 10px;
+}
+.info-design {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+  color: black;
+}
+.info-design img {
+  width: 30px;
+  border-radius: 1000px;
+}
+.info-design a {
+    color: inherit;
+}
+.info-design p{
+    color: white;
+    background: rgb(171, 170, 170);
+    font-weight: bold;
+    padding: 2px 4px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.section3 li > div:last-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.info-design + ul{
+    display: flex;
+    gap: 8px;
+}
+.info-design + ul p{
+    display: inline-block;
+    margin: 0px 2px;
+}
+.info-design + ul i{
+    color: gray;
+}
