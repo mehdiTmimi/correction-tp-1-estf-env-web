@@ -1,5 +1,6 @@
 :root{
     --distance: 200px;
+    --bg-color:rgb(30, 30, 30);
 }
 *{
     padding: 0;
@@ -9,7 +10,7 @@
     font-optical-sizing: auto;
 }
 body>header{
-    background-color: rgb(49, 48, 48);
+    background-color: var(--bg-color);
     color: white;
     position: fixed;
     width: var(--distance);
@@ -44,7 +45,7 @@ body>header a{
 body>header h1 span{
     margin-left: 13px;
     font-size: 1.5em;
-    background: rgb(49, 48, 48);
+    background: var(--bg-color);
     border-radius: 50%;
     padding: 2px;
     font-weight: bold;
@@ -163,4 +164,13 @@ main{
 .btn{
     border: 0;
     color: white;
+}
+.section2{
+    background: var(--bg-color);
+}
+.section2 img{
+    width: 400px;
+}
+.section2 .profile{
+    width: unset;
 }
