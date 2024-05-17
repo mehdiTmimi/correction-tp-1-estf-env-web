@@ -286,3 +286,50 @@ header .left-header .divSearch::before {
     border: 0px;
     border-radius: 50px;
 }
+
+.section4{
+    background: #ffda79;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 0px;
+}
+.section4>div:first-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.section4>div:first-child h1{
+    font-size: 3em;
+    margin-bottom: 20px;
+    width: 50%;
+    font-weight: unset;
+}
+.section4>div:first-child p:last-child{
+    width: 70%;
+    text-align: center;
+    margin-top: 10px;
+}
+.btn{
+    border: 0px;
+    padding: 17px;
+    border-radius: 25px;
+    margin: 0px 5px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.btn-black{background: black;color: white;}
+.btn-white{
+
+}
+.section4>div:last-child{
+    display: flex;
+    color: black;
+    gap: 3px;
+    margin-top: 30px;
+}
+.section4 a{
+    color: inherit;
+    text-decoration: underline;
+}
